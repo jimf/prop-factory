@@ -18,7 +18,7 @@ Install using npm:
 Borrowed from [Mithril][mithril]'s `m.prop`, prop-factory is a simple
 factory that returns a function for storing and retrieving a value.
 
-```
+```js
 var prop = require('prop-factory');
 
 // Define a setter-getter with an initial value of "John" (without a given
